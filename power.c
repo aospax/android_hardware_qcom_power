@@ -84,7 +84,7 @@ static void sync_thread(int off)
     }
 
     if (rc < 0) {
-        ALOGE("%s: failed to send: %s", __func__, strerror(errno));
+        ALOGD("%s: failed to send: %s", __func__, strerror(errno));
     }
 }
 
